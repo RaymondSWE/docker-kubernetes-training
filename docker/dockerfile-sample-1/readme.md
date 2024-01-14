@@ -1,7 +1,7 @@
 # Introduction to Dockerfiles
 
 
-- **Dockerfile:** A Dockerfile is a text document containing a series of instructions for building a Docker image. It's not a shell script but a unique language specific to Docker.
+- **Dockerfile:** A Dockerfile is a text document containing a series of instructions for building a Docker image. It's not a shell script but a unique language specific to Docker. The purpose of this is to create custom docker images, you could always use docker pull for images but, this is more for specific tailored needs.
 
 - **Structure:** Each instruction in a Dockerfile creates a layer in the Docker image. The order of instructions matters as Docker processes them top-down.
 
