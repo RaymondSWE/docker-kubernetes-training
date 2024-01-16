@@ -13,7 +13,6 @@ services:
       - drupal-sites:/var/www/html/sites
       - drupal-themes:/var/www/html/themes
       - drupal-data:/var/www/html/sites/default/files
-    restart: always
     environment:
       DRUPAL_DB_HOST: db
       DRUPAL_DB_PORT: 5432
@@ -30,7 +29,6 @@ services:
       MYSQL_PASSWORD: drupal
     volumes:
       - db-data:/var/lib/postgresql/data
-    restart: always
 
 volumes:
   drupal-modules:
